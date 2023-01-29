@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Página de inicio do site" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>your coffe login</title>
+  </head>
+
+  <body class="background-login">
+    <div class="logo-login">
+      <img class="img-login" src="./Imagens/Logo agrupada.png" alt="logo" />
+    </div>
+
+    <div class="login">
+      <input
+        class="login-pass"
+        type="email"
+        placeholder="Informe seu e-mail"
+        required
+      />
+      <input
+        class="login-pass"
+        type="password"
+        placeholder="Informe sua senha"
+      />
+    </div>
+    <div class="save-pass">
+      <label for="check" style="color: #ffffff">
+        <input type="checkbox" id="check" value="Manter conectado" />
+        Manter conectado
+      </label>
+      <a class="password" href="login.html" style="color: #ffffff"
+        >Recuperar senha</a
+      >
+    </div>
+
+    <div>
+      <a class="enter" href="login.html" style="text-decoration: none">
+        <input class="buttons" type="button" value="Entrar" />
+        <input class="buttons" type="button" value="Criar conta" />
+        <input
+          id="button-facebook"
+          type="button"
+          value="Entrar com o facebook"
+        />
+        <input id="button-google" type="button" value="Entrar com o google" />
+      </a>
+    </div>
+  </body>
+</html>
